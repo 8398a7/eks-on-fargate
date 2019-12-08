@@ -1,5 +1,9 @@
 # EKS on Fargate PoC
 
+## Overview
+
+You can experience accessing nginx using ALB at EKS on Fargate.
+
 refs: https://839.hateblo.jp/
 
 ## Requirements
