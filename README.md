@@ -4,7 +4,7 @@
 
 You can experience accessing nginx using ALB at EKS on Fargate.
 
-refs: https://839.hateblo.jp/
+refs: https://839.hateblo.jp/entry/2019/12/08/172020
 
 ## Requirements
 
@@ -37,6 +37,9 @@ open http://$(kubectl get ing -o jsonpath='{.items[].status.loadBalancer.ingress
 ```
 
 ## Cleanup
+
+There are cases where deletion of a VPC fails.  
+In that case, delete it manually.
 
 ```bash
 # - Deleting ALB resources
